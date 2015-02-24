@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyExpertServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyExpertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyExpertPwdServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyExpertPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminPwdServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyAdminPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectTypeServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SelectTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AddAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddExpertServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AddExpertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyStudentServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyStudentPwdServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyStudentPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminInfoServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyAdminInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyExpertInfoServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyExpertInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyStudentInfoServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.ModifyStudentInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.UpdateUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>studentupfileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.StudentUpfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveReviewServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SaveReviewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitReviewServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SubmitReviewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileDownServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.FileDownServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUpfileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AdminUpfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DownloadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SaveFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SubmitFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllotPaperNumServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AllotPaperNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllotFileNumServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.AllotFileNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePaperRewardServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.UpdatePaperRewardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PaperAllocationServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.PaperAllocationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateFileRewardServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.UpdateFileRewardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileAllocationServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.FileAllocationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PaperMessageServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.PaperMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownReviewPaperServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DownReviewPaperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileMessageServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.FileMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownReviewFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DownReviewFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownHelpFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DownHelpFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SwitchFileServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SwitchFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SwitchPaperServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SwitchPaperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectNoteTypeServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.SelectNoteTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add1NoteServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.Add1NoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add2NoteServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.Add2NoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadNoteServlet</servlet-name>
+    <servlet-class>com.test.tougao.servlet.DownloadNoteServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyExpertServlet</servlet-name>
+    <url-pattern>/ModifyExpertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyExpertPwdServlet</servlet-name>
+    <url-pattern>/ModifyExpertPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <url-pattern>/ModifyAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminPwdServlet</servlet-name>
+    <url-pattern>/ModifyAdminPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectTypeServlet</servlet-name>
+    <url-pattern>/SelectTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <url-pattern>/AddAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddExpertServlet</servlet-name>
+    <url-pattern>/AddExpertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyStudentServlet</servlet-name>
+    <url-pattern>/ModifyStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyStudentPwdServlet</servlet-name>
+    <url-pattern>/ModifyStudentPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <url-pattern>/ModifyUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminInfoServlet</servlet-name>
+    <url-pattern>/ModifyAdminInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyExpertInfoServlet</servlet-name>
+    <url-pattern>/ModifyExpertInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyStudentInfoServlet</servlet-name>
+    <url-pattern>/ModifyStudentInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <url-pattern>/DeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <url-pattern>/UpdateUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentupfileServlet</servlet-name>
+    <url-pattern>/studentupfile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveReviewServlet</servlet-name>
+    <url-pattern>/SaveReviewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitReviewServlet</servlet-name>
+    <url-pattern>/SubmitReviewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileDownServlet</servlet-name>
+    <url-pattern>/FileDownServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpfileServlet</servlet-name>
+    <url-pattern>/AdminUpfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadFileServlet</servlet-name>
+    <url-pattern>/DownloadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveFileServlet</servlet-name>
+    <url-pattern>/SaveFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitFileServlet</servlet-name>
+    <url-pattern>/SubmitFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllotPaperNumServlet</servlet-name>
+    <url-pattern>/AllotPaperNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllotFileNumServlet</servlet-name>
+    <url-pattern>/AllotFileNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePaperRewardServlet</servlet-name>
+    <url-pattern>/UpdatePaperRewardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaperAllocationServlet</servlet-name>
+    <url-pattern>/PaperAllocationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateFileRewardServlet</servlet-name>
+    <url-pattern>/UpdateFileRewardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileAllocationServlet</servlet-name>
+    <url-pattern>/FileAllocationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaperMessageServlet</servlet-name>
+    <url-pattern>/PaperMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownReviewPaperServlet</servlet-name>
+    <url-pattern>/DownReviewPaperServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileMessageServlet</servlet-name>
+    <url-pattern>/FileMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownReviewFileServlet</servlet-name>
+    <url-pattern>/DownReviewFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownHelpFileServlet</servlet-name>
+    <url-pattern>/DownHelpFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SwitchFileServlet</servlet-name>
+    <url-pattern>/SwitchFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SwitchPaperServlet</servlet-name>
+    <url-pattern>/SwitchPaperServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectNoteTypeServlet</servlet-name>
+    <url-pattern>/SelectNoteTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add1NoteServlet</servlet-name>
+    <url-pattern>/Add1NoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add2NoteServlet</servlet-name>
+    <url-pattern>/Add2NoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadNoteServlet</servlet-name>
+    <url-pattern>/DownloadNoteServlet</url-pattern>
+  </servlet-mapping>
+
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
